@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.main{
+    max-width: 1700px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    color: #ffff;
+}
+.content1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 300px;
+    height: 700px;
+    background-image: url(/img/547445.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: flex 3s;
+}
+.content2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 300px;
+    height: 700px;
+    background-image: url(/img/156340.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: flex 3s;
+}
+.content3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 300px;
+    height: 700px;
+    background-image: url(/img/547516.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: flex 3s;
+}
+.content4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 300px;
+    height: 700px;
+    background-image: url(/img/547525.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: flex 3s;
+}
+.content5{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 300px;
+    height: 700px;
+    background-image: url(/img/721153.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: flex 3s;
+}
+.active{
+ flex: 9;
+}
